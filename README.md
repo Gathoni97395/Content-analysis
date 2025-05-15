@@ -54,8 +54,6 @@ Use VLOOKUP: I used the VLOOKUP function to populate these new columns by fetchi
 Example VLOOKUP function: =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
 ### Data aggregation and Visualization: Data Visualization:
 I created  visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, content category with most reaction, and unique content categories.
-![Alt Text](path/to/png1.png)
-
-
+![png1](image.png)
 
 
