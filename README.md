@@ -57,4 +57,16 @@ I created  visualizations using Pivot Tables and Pivot Charts, ensuring the char
 
 ![png1](png1.png), ![png2](png2.png),    ![png4](png4.png)   ![png3](png3.png)
 
+### Insights
+Despite technological advancement, animals are the most popular content category among users on Social Buzz. Animals has over 1.8k reactions, which is more than any other category. Technology has the least reactions, with only 1.698k. While science, healthy eating, and food are also popular, none resonate with users as strongly as animal content, which consistently captures the most attention.
+
+The month of May generated the highest number of posts, with 2.138k posts recorded, making it the most active month. January and December followed closely, with December’s activity likely influenced by the festive and holiday season, as users tend to share more content during celebrations. In contrast, February recorded the lowest number of posts, possibly because users are more focused on work and routine activities during this time.
+
+Photos and Videos are the best performing contents on social Buzz. Photos lead with a performance of 51%, slightly outperforming video contents at 49%. This shows that while users might enjoy video contents, photos often deliver message more effectively and resonate faster with audiences than any other content type.
+
+### Recommendation
+Social Buzz should can   promote contents published in the month of December as users tend to post more content during holiday and festive period.
+
+More attention should be allocated to animal and science content category especial photo and video contents, with addition of science and other categories so that users can have varieties of content to consume. For example,  a campaign strategy could be to  promote this type of content  or partner  with healthy eating brands to promote content and boost user engagement..
+
 
