@@ -5,12 +5,12 @@ This project aims to provide insights into the content performance. By Analyzing
 ## Dataset
 The dataset used in this project is from Forage and contains three tables:
 
--`Content `Table: Contains `ContentID`, `Content Categories`, and `Content Type`.
+-`Content `Table: Contains fields like `ContentID`,  `UserID`,`Content Categories`, and `URL`.
 
--`Reactions` Table: Contains  `ContentID`, `Reaction_Types`, `Reaction_Scores`, and `Date`.
+-`Reactions` Table: Contains  fields like `ContentID`, `Reaction_Types`, `Reaction_Scores`, and `Date`.
 
 
--`ReactionTypes Table`: Maps `Reaction_Types` to `Reaction Scores`.
+-`ReactionTypes`Table: Maps `Reaction_Types` to `Reaction Scores`.
 
 
 
@@ -28,11 +28,33 @@ Excel(data cleaning, validation,modelling, aggregation & visualization.
 
 -Renaming Columns for Clarity: To improve the dataset’s readability and interpretability.
 
--Renamed Categories and types in the Content Table to Content Categories and Content type.
+-Renamed `Categories` and `types` in the Content Table to `Content Categories` and `Content type`.
 
--Renamed Scores in the Reaction Type Table to Reaction Scores.
+-Renamed `Scores` in the `Reaction Type` Table to `Reaction Scores`.
 
--Renamed type from Reactions Table to Reaction Types.
+-Renamed `type` from `Reactions` Table to` Reaction Types`.
 ### Data modelling
-After cleaning the datasets, I modeled the data by linking the three tables (Content Table, Reactions Table, and ReactionTypes Table) using Excel VLOOKUP. This step consolidated the data into a single table for analysis and visualization.
+After cleaning the datasets, I modeled the data by linking the three tables (`Content` table, `Reactions` table, and `ReactionTypes` table) using Excel VLOOKUP. This step consolidated the data into a single table for analysis and visualization.
+### Purpose of Each Table
+Content Table: Contains `ContentID`, Content Categories, and Content Type.
+Reactions Table: Stores reactions with fields like ContentID, Reaction_Types, Reaction_Scores, and Date.
+ReactionTypes Table: Maps Reaction_Types to Reaction Scores.
+### Linking the Tables
+Understanding Relationships
+The `Reaction_Types` field is a primary key in the `ReactionTypes` Table but a foreign key in the `Reactions` Table.
+The `ContentID` field is a primary key in the `Content` Table and a foreign key in the `Reactions` Table
+### Creating a Merged Table
+To prepare a fact table for analysis, I needed the following fields in one sheet:
+
+`ContentID`,`Content Categories`,`Content Type`,`Reaction_Types`,,`Reaction Scores`,`Date`
+I followed these steps:
+
+Add Blank Columns: In the Reactions Table, I created blank columns for `Content Categories`, `Content Type`, and `Reaction Scores`.
+Use VLOOKUP: I used the VLOOKUP function to populate these new columns by fetching data from the Content Table and ReactionTypes Table.
+Example VLOOKUP function: =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
+### Data aggregation and Visualization: Data Visualization:
+I created  visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, content category with most reaction, and unique content categories
+
+
+
 
