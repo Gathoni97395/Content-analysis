@@ -11,11 +11,18 @@ DIsclaimer. This is not a real life dataset.
 Excel(data cleaning, validation,modelling, aggregation & visualization.
 ### Data Validation & Cleaning
 -Ensuring Consistency in Data Types: I validated that each column contained only a single datatype, ensuring uniformity and accuracy across the dataset.
+
 -I used the filter icon to identify blank spaces and inconsistencies in rows. I deleted the null values from the datasets.
+
 -Removing Unnecessary Characters: I used the "Replace" function to eliminate unwanted characters, such as quotation marks, that could interfere with the analysis.
+
 -Dropping Irrelevant Columns: I identified and removed columns that were not essential for the analysis, such as the UserID column, to enhance focus and reduce noise.
--Renaming Columns for Clarity: To improve the dataset’s readability and interpretability:
+
+-Renaming Columns for Clarity: To improve the dataset’s readability and interpretability.
+
 -Renamed Categories and types in the Content Table to Content Categories and Content type.
+
 -Renamed Scores in the Reaction Type Table to Reaction Scores.
+
 -Renamed type from Reactions Table to Reaction Types.
 
