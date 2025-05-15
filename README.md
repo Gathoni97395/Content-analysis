@@ -55,6 +55,6 @@ Example VLOOKUP function: =VLOOKUP(A2,Content!A1:C1001,3,FALSE)
 ### Data aggregation and Visualization: Data Visualization:
 I created  visualizations using Pivot Tables and Pivot Charts, ensuring the charts were readable and used colour encoding to highlight the highest-performing values for clarity and emphasis. I also created KPIs to show the month with the highest reaction, content category with most reaction, and unique content categories.
 
-![png1](png1.png), ![png2](png2.png), ![png3](png3.png), ![png3(2)](png3(2).png)
+![png1](png1.png), ![png2](png2.png),    ![png4](png4.png)   ![png3](png3.png)
 
 
