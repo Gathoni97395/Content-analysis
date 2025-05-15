@@ -1,5 +1,6 @@
-#Content Analysis
-##Problem Statement
+#CONTENT ANALYSIS
+
+#Problem Statement
 
 Social Buzz, a social media platform has expanded its operations to a global scale, generating over 100,000 posts in a day. With so much content, they'd like an analysis of the  performing content to  understand customer behaviour based on preferences and insights that will drive marketing strategies and improve sales. 
 
