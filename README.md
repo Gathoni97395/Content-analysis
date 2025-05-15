@@ -3,7 +3,10 @@ Social Buzz, a social media platform has expanded its operations to a global sca
 ## Project overview
 This project aims to provide insights into the content performance. By Analyzing various aspects of the content data, we seek to gain deeper understanding of their content performances, identify the most popular content categories among users,  provide actionable insights and make-data driven recommendations.
 ## Dataset
-The dataset used in this project is from Forage.
+The dataset used in this project is from Forage and contains three tables:
+Content Table: Contains ContentID, Content Categories, and Content Type.
+Reactions Table: Stores reactions with fields like ContentID, Reaction_Types, Reaction_Scores, and Date.
+ReactionTypes Table: Maps Reaction_Types to Reaction Scores.
 
 
 DIsclaimer. This is not a real life dataset.
@@ -25,4 +28,6 @@ Excel(data cleaning, validation,modelling, aggregation & visualization.
 -Renamed Scores in the Reaction Type Table to Reaction Scores.
 
 -Renamed type from Reactions Table to Reaction Types.
+### Data modelling
+After cleaning the datasets, I modeled the data by linking the three tables (Content Table, Reactions Table, and ReactionTypes Table) using Excel VLOOKUP. This step consolidated the data into a single table for analysis and visualization.
 
