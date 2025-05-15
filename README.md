@@ -7,3 +7,8 @@ Social Buzz, a social media platform has expanded its operations to a global sca
 
 ###Project overview
 This project aims to provide insights into the content performance. By Analyzing various aspects of the content data, we seek to gain deeper understanding of their content performances, identify the most popular content categories among users,  provide actionable insights and make-data driven recommendations.
+## Dataset
+The dataset used in this project is from Forage.
+DIsclaimer. This is not a real life dataset.
+## Tool(s)
+Excel(data cleaning, modelling, aggregation & visualization
